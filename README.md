@@ -1,6 +1,6 @@
 # Public Release: Postselection technique for optical Quantum Key Distribution with improved de Finetti reductions
 
-This is a public version of the code used in *Postselection technique for optical Quantum Key Distribution with improved de Finetti reductions* \[[arXiv](https://arxiv.org/abs/2403.11851)]. This was built as a module for [v2.0.1](https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity/releases/tag/v2.0.1) of the Open QKD Security package.
+This is a public release of the code used in *Postselection technique for optical Quantum Key Distribution with improved de Finetti reductions* \[[arXiv](https://arxiv.org/abs/2403.11851)]. This was built as for [v2.0.1](https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity/releases/tag/v2.0.1) of the Open QKD Security package.
 
 \<Write description of code here.\>
 
@@ -14,7 +14,7 @@ This is a public version of the code used in *Postselection technique for optica
 2. Download the latest release on the side bar and unzip in your prefered directory.
 3.  \<Install directions for this repository. Ex. add to the path and save.\>
 
-### with git
+### With git
 1. Clone this repository and it's exact submodules navigate to your desired directory and run,
 ```
 git clone --recurse-submodules https://github.com/Optical-Quantum-Communication-Theory/PostselectionTechniqueForOpticalQuantumKeyDistributionWithImprovedDeFinettiReductions
