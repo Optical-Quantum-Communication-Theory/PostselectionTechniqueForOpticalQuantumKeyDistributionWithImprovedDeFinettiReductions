@@ -1,0 +1,3 @@
+ liftType = {"IID","Sequential-IID","Postselection-generic",...
+       "Postselection-blockdiagonal","Postselection-decoy","Postselection-no-improvement"};
+PSPlots(liftType);
