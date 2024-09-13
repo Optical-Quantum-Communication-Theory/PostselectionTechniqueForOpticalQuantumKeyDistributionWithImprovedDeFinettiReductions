@@ -42,7 +42,7 @@ switch lift
     case "Postselection-decoy-generic"
         liftDimension = 33^2*900; % No block-diagonal structure; decoy with photon-number cut-off of 8.
     case "Postselection-decoy"
-        liftDimension = (6^2+9*3^2)*30; % Block-diagonal structure; decoy with photon-number cut-off of 8.
+        liftDimension = (6^2+9*3^2)*18; % Block-diagonal structure; decoy with photon-number cut-off of 2 and 3 intensities.
     otherwise
         liftDimension = 1; % Placeholder value so that the code runs for non-PS cases.
 end
