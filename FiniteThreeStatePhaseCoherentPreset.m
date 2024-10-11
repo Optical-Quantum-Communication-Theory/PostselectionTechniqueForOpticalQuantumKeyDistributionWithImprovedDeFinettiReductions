@@ -38,11 +38,9 @@ switch lift
     case "Postselection-generic"
         liftDimension = 22^2; % No block-diagonal structure; qubit
     case "Postselection-blockdiagonal"
-        liftDimension = 4^2+9*2^2; % Block-diagonal qubit. See Section V.A. for explanation.
-    case "Postselection-decoy-generic"
-        liftDimension = 33^2*900; % No block-diagonal structure; decoy with photon-number cut-off of 8.
+        liftDimension = 2^2*(2^2+9); % Block-diagonal qubit. See Section V.A. for explanation.
     case "Postselection-decoy"
-        liftDimension = (6^2+9*3^2)*18; % Block-diagonal structure; decoy with photon-number cut-off of 2 and 3 intensities.
+        liftDimension = 3^2*(2+2)*3^2*(2^2+9); % Block-diagonal structure; decoy with photon-number cut-off of 2 and 3 intensities.
     otherwise
         liftDimension = 1; % Placeholder value so that the code runs for non-PS cases.
 end
